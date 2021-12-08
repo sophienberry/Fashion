@@ -28,7 +28,9 @@ namespace Fashion
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            myweb.Source = new Uri("https://www.google.com");
+            myweb.Source = new Uri("https://sophienberry.github.io/ExtraHW.html");
+
+
         }
 
 

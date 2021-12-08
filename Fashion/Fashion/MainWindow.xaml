@@ -18,9 +18,9 @@
                 <GradientStop Color="#FED39D9A" Offset="0.957"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button Content="View it!" HorizontalAlignment="Left" Margin="588,19,0,0" VerticalAlignment="Top" Height="57" Width="112" Click="Button_Click" FontFamily="Pristina" FontSize="24" FontWeight="Bold"/>
-        <Label x:Name="lblLookbook" Content="Here's a Look Book I created!" HorizontalAlignment="Left" Margin="94,3,0,0" VerticalAlignment="Top" FontFamily="Pristina" FontSize="36" FontWeight="Bold" Height="89" Width="425"/>
-        <WebBrowser x:Name="myweb" Margin="64,92,64,27" />
+        <Button Content="View it!" HorizontalAlignment="Left" Margin="642,14,0,0" VerticalAlignment="Top" Height="57" Width="112" Click="Button_Click" FontFamily="Pristina" FontSize="24" FontWeight="Bold"/>
+        <Label x:Name="lblLookbook" Content="Here's my Fashion Look Book and Site" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontFamily="Pristina" FontSize="36" FontWeight="Bold" Height="89" Width="508"/>
+        <WebBrowser x:Name="myweb" Margin="0,71,0,0" />
 
 
     </Grid>
