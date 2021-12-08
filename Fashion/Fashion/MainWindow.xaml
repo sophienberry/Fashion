@@ -1,0 +1,27 @@
+﻿<Window x:Class="Fashion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fashion"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFE4E2D1"/>
+                <GradientStop Color="#FFBBC9D0" Offset="1"/>
+                <GradientStop Color="#FFC7A5CF" Offset="0.171"/>
+                <GradientStop Color="#FEACD6E0" Offset="0.344"/>
+                <GradientStop Color="#FEB6E1B8" Offset="0.546"/>
+                <GradientStop Color="#FEDBBCC6" Offset="0.746"/>
+                <GradientStop Color="#FED39D9A" Offset="0.957"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="View it!" HorizontalAlignment="Left" Margin="588,19,0,0" VerticalAlignment="Top" Height="57" Width="112" Click="Button_Click" FontFamily="Pristina" FontSize="24" FontWeight="Bold"/>
+        <Label x:Name="lblLookbook" Content="Here's a Look Book I created!" HorizontalAlignment="Left" Margin="94,3,0,0" VerticalAlignment="Top" FontFamily="Pristina" FontSize="36" FontWeight="Bold" Height="89" Width="425"/>
+        <WebBrowser x:Name="myweb" Margin="64,92,64,27" />
+
+
+    </Grid>
+</Window>
